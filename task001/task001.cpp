@@ -9,7 +9,7 @@ int main() {
             sum += i;
         }
     }
-    
+
     std::cout << sum << std::endl;
 
     return 0;
