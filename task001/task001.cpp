@@ -8,7 +8,7 @@ int main() {
     int m = 0;
     for(int i = 1; i < valueMax; i++)
     {
-        if ((i % value1 == 0) || (i % value2 ==0) ) {
+        if (!(i % value1) || !(i % value2) ) {
             m += i;
         }
     }
