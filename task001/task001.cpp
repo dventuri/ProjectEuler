@@ -1,19 +1,16 @@
 #include <iostream>
 
 int main() {
-    
-    int value1 = 3;
-    int value2 = 5;
-    int valueMax = 1000;
-    int m = 0;
-    for(int i = 1; i < valueMax; i++)
+    int sum = 0;
+
+    for(int i = 1; i < 1000; i++)
     {
-        if (!(i % value1) || !(i % value2) ) {
-            m += i;
+        if (!(i % 3) || !(i % 5) ) {
+            sum += i;
         }
     }
     
-    std::cout << m << std::endl;
+    std::cout << sum << std::endl;
 
     return 0;
 }
